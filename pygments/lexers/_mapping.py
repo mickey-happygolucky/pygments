@@ -488,6 +488,7 @@ LEXERS = {
     'ZeekLexer': ('pygments.lexers.dsls', 'Zeek', ('zeek', 'bro'), ('*.zeek', '*.bro'), ()),
     'ZephirLexer': ('pygments.lexers.php', 'Zephir', ('zephir',), ('*.zep',), ()),
     'ZigLexer': ('pygments.lexers.zig', 'Zig', ('zig',), ('*.zig',), ('text/zig',)),
+    'ZenLexer': ('pygments.lexers.zen', 'Zen', ('zen',), ('*.zen',), ('text/zen',)),
 }
 
 if __name__ == '__main__':  # pragma: no cover
